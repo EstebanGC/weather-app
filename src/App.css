@@ -1,0 +1,79 @@
+
+#root {
+  background-image: url('./weather.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #C8D2D4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-top: 0;
+}
+
+.input {
+  color: #CDD4D6;
+  background: transparent;
+  padding: 15px;
+  max-width: 80%;
+  margin:auto;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.input::placeholder{
+  color: #CDD4D6;
+}
+.input:focus {
+  outline: none;
+}
+
+.weather-data {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.celsius {
+  font-size: 90px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fahrenheit {
+  font-size: 45px;
+  font-weight: 75;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.condition {
+  margin-top: 0;
+  font-weight: 400;
+}
