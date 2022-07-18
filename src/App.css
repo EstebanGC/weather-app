@@ -26,6 +26,7 @@
 }
 
 .input {
+  margin-top: 20px;
   color: #CDD4D6;
   background: transparent;
   padding: 15px;
@@ -76,4 +77,8 @@
 .condition {
   margin-top: 0;
   font-weight: 400;
+}
+
+.message{
+  margin-top: 20px;
 }
