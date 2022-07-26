@@ -3,7 +3,8 @@
   background-image: url('./weather.jpg');
   background-repeat: no-repeat;
   height: 100vh;
-  color: #C8D2D4;
+  color: white;
+  background-size: cover;
 }
 
 * {
@@ -14,8 +15,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container{
-  
+.container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
   font-size: 16px;
 }
 
-.input::placeholder{
+.input::placeholder {
   color: #CDD4D6;
 }
 .input:focus {
@@ -45,7 +45,7 @@
 }
 
 .weather-data {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,21 +64,57 @@
   border: 1px solid lightgray;
   border-radius: 12px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .fahrenheit {
-  font-size: 45px;
-  font-weight: 75;
-  margin-top: 0;
-  margin-bottom: 0;
+   margin-bottom: 10px;
+   font-weight: 600;
 }
 
 .condition {
   margin-top: 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.message{
+.message {
   margin-top: 20px;
 }
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255, 0.2); 
+}
+
+.title1 {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.condition1 {
+  margin: 10px;
+  font-weight: 300;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-container button {
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+}
+
+.input-container img {
+  width: 20px;
+  color: white;
+}
+
