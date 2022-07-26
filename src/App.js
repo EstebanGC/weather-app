@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './App.css';
-import search from '../src/search.png';
 
 function App() {
 
@@ -32,9 +31,7 @@ function App() {
       />
       
       </div>
-      {/* <button onClick={getWeather}>H
-      <img className='input-icon' src={search}/>
-      </button> */}
+      
 
       {typeof weatherData.main === 'undefined' ? (
         <div className='message'>
